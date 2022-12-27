@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+body {
+	margin:0;
+	color:#edf3ff;
+	background:#c8c8c8;
+	background:url(https://hdqwalls.com/download/material-design-4k-2048x1152.jpg) fixed;
+	background-size: cover;
+}
+.logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.text{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text h1{
+    color: azure;
+    backdrop-filter: blur(5px);
+    font-size: 48px !important;
+    text-transform: uppercase;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(199, 39, 39, 0.1);
+    height: 100%;
+    width: 100%;
+}
+.car_details{
+
+}
+.text2{
+    padding: 50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+input{
+    outline: red !important;
+}
+/* design */
+.btn{
+    text-align: center !important;
+    padding: 10px 20px !important;
+}
