@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+body {
+	margin:0;
+	color:#edf3ff;
+	background:#c8c8c8;
+	background:url(https://hdqwalls.com/download/material-design-4k-2048x1152.jpg) fixed;
+	background-size: cover;
+}
+.logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.text{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text h1{
+    color: rgb(98, 98, 98);
+    backdrop-filter: blur(5px);
+    font-size: 48px !important;
+    text-transform: uppercase;
+}
+
+.text2{
+    padding: 50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.text2 h2, .text2 p{
+    color: rgb(98, 98, 98);
+   
+}
+
+th{
+    color: rgb(81, 81, 82) !important;
+}
+/* design */
+.btn{
+    background: none;
+    border: none;
+    border: 2px solid #555454 !important;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 12px 20px;
+    transition: color 0.4s linear;
+    min-width: 200px;
+    cursor: pointer;
+    position: relative;
+}
+.btn:hover{
+    color: white !important;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #555454;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+   /* transition-timing-function: cubic-bezier(0.5, 1.6, 0.4,0.7); */
+   transition-timing-function: cubic-bezier();
+}
+.btn1::before{
+    transform: scaleX(0);
+}
+.btn1:hover::before{
+    transform: scaleX(1);
+}
+@media (max-width: 575.98px) {
+    .text h1{
+        font-size: 26px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .text h1{
+        font-size: 20px !important;
+    }
+}
